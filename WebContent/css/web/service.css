@@ -1,0 +1,101 @@
+/*用户服务 相关样式表*/
+
+
+/*公共不封样式 start*/
+
+#service-public {
+    width: 200px;
+    background-color: #fff;
+    border: #e5e5e5 solid 1px;
+    border-bottom: none;
+    border-radius: 2px;
+    box-shadow: #e8e8e8 0px 2px 5px;
+}
+
+#service-main {
+    width: 860px;
+}
+
+.service-item {
+    height: 56px;
+    line-height: 56px;
+    display: block;
+    border-bottom: #e5e5e5 solid 1px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.service-item.focus {
+    border-left: #11cd6e solid 3px;
+    background: #f7f7f7;
+}
+
+.service-item:hover {
+    background: #f7f7f7;
+}
+
+.service-title {
+    height: 56px;
+    background-color: #fff;
+    border: #e5e5e5 solid 1px;
+    border-radius: 2px;
+    box-shadow: #e8e8e8 0px 2px 5px;
+}
+
+.service-title h1 {
+    line-height: 56px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.service-body {
+    background-color: #fff;
+    border: #e5e5e5 solid 1px;
+    border-radius: 2px;
+    box-shadow: #e8e8e8 0px 2px 5px;
+    margin-top: 25px;
+}
+
+.service-content {
+    padding: 20px;
+}
+
+.service-content p {
+    line-height: 25px;
+}
+
+
+/*公共不封样式 end*/
+
+
+/*常见问题 start*/
+
+.problem-list {
+    padding: 10px 30px;
+}
+
+.problem-list li {
+    line-height: 56px;
+    border-bottom: #efefef solid 1px;
+}
+
+.problem-list li a {
+    display: block;
+}
+
+.problem-list li .problem-content {
+    display: none;
+    border: #efefef solid 1px;
+    background: #f7f7f7;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+
+/*常见问题 end*/
+
+
+/*关于我们 start*/
+
+
+/*关于我们 end*/

@@ -1,0 +1,48 @@
+html,body{ background-color: #fefefe; }
+#main{ width: 1100px; margin: 20px auto 0; }
+.search{ position: relative; width: 400px; border: #11cd6e solid 2px; border-radius: 5px; }
+.search .keywords{ background-color: #fff; }
+.alimama-nav{ height: 40px; background-color: #f2f2f2; border: solid 1px #e8e8e8; margin-top: 10px; }
+.nav-item{ padding: 0 20px; line-height: 40px; font-size: 12px; display: inline-block; }
+.nav-item:hover,.nav-item.active{ background-color: #fff; border-color: #e5e5e5; color: #f50;}
+
+.list{}
+.list ul{ width: 1090px; }
+.list ul li{ width: 230px; margin: 20px 25px 0 0; border: 1px solid #ededed; float: left; background-color: #fff; }
+.list ul li:hover{ border: #f40 solid 1px; transition: all .2s; box-shadow: #f40 0px 1px 10px; }
+.list ul li img.main-image{ width: 230px; height: 230px;}
+
+.price-line{ margin-top: 11px; height: 22px; line-height: 22px; overflow: hidden;}
+.original-price{ text-decoration: line-through; margin-right: 5px; color: #aaa; font-size: 13px; }
+.now-price{ color: #F40; font-weight: 700; font-size: 22px; vertical-align: bottom; }
+.now-price em{ font-style: normal; vertical-align: bottom; font-weight: normal; color: #F40; font-size: 13px; }
+.now-price i{ font-size: 12px; vertical-align: bottom; }
+.buyer-number{ color: #888; font-size: 12px; padding-right: 5px; }
+
+.title{ height: 36px; overflow: hidden; padding: 5px 5px 0; }
+.alimama-link{ color: #3d3d3d; font-size: 12px; }
+.alimama-link:hover{ color: #F40; text-decoration: underline; }
+
+.store{ height: 22px; line-height: 22px; margin-top: 5px; font-size: 12px; padding: 0 5px; }
+.store-name{ color: #888; text-decoration: underline; }
+.store-type{ display: inline-block; width: 16px; height: 16px; margin-top: 3px; vertical-align: bottom; margin-right: 3px; }
+.tianmao{ background: url(../../../images/alimama/tianmao.png); }
+.taobao{ background: url(../../../images/alimama/taobao.png); }
+
+.quan{ display: inline-block; /*background-color: #E81162;*/ text-align: center; padding: 5px; margin-top: 5px; }
+/*.quan-value{ background-color: #FDFC00; color: #E81162; margin: 0 5px; border-radius: 5px; line-height: 40px; height: 40px; font-weight: bold; font-size: 20px; }
+.quan-link{ color: #FDFC00; height: 25px; line-height: 28px; }*/
+.quan-link{ height: 30px; width: 32px; text-align: center; line-height: 30px; border: #FF0059 dotted 1px; color: #FF0059;}
+.quan-value{ line-height: 30px; height: 30px; border: #FF0059 dotted 1px; border-left: none; padding: 0 5px; color: #FF0059;}
+.list ul li:hover .quan-link{ border: #FF0059 solid 1px; color: #fff; background-color: #FF0059; }
+.two-code{ position: relative; }
+.two-code i{ display: inline-block; width: 30px; height: 30px; text-align: center; line-height: 30px; border: #FF0059 dotted 1px; border-left: none; font-size: 18px; }
+.code-box{ width: 130px; border: #f40 solid 5px; position: absolute; bottom: 0; left: -1px; display: none; background-color: #fff; }
+.code-box p{ margin-top: 10px; color: #f40; font-weight: bold; font-size: 14px; }
+.code-box img{ width: 100%; }
+
+/*.share{ height: 30px; width: 32px; display: inline-block; border: #FF0059 dotted 1px; }*/
+
+#page{ text-align: center; padding: 30px 0; }
+
+.no-data{ width: 100%; text-align: center; line-height: 200px; color: #ccc; }
